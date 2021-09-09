@@ -150,7 +150,7 @@ const hasChildrenValues = (arr, character) => {
   let newObj=arr.find(item=>{
     return item.name===character
   })
-  return Object.keys(newObj).length>3?true:false
+  return Object.values(newObj).length>3?true:false
 };
 
 /* ------------------------------------------------------------------------------------------------
